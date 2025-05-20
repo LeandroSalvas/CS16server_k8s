@@ -52,7 +52,7 @@ data:
     ; "123.45.67.89" "" "abcdefghijklmnopqrstu" "de"
     ; "My Name" "my_password" "abcdefghijklmnopqrstu" "a"
 
-    "LeandroSalvas" "Icore2w7" "abcdefghijklmnopqrstu" "a"
+    "LeandroSalvas" "123456" "abcdefghijklmnopqrstu" "a"
     "loopback" "" "abcdefghijklmnopqrstu" "de"
 kind: ConfigMap
 metadata:
