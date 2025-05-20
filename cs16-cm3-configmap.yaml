@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  server.cfg: "// Use this file to configure your DEDICATED server. \n// This config file is executed on server start.\n\n// disable autoaim\nsv_aim 0\n\n// disable clients' ability to pause the server\npausable 0\n\n// default server name. Change to \"Bob's Server\", etc.\nhostname \"LeandroSalvas\"\n\n// maximum client movement speed \nsv_maxspeed 320\n\n// 20 minute timelimit\nmp_timelimit 20\n\nsv_cheats 0\n\n// load ban files\nexec listip.cfg\nexec banned.cfg\n\n\nrcon_password \"cqz1xr4u\"\nsv_maxrate 0\nsv_minrate 0\nsv_maxupdaterate 30\nsv_minupdaterate 10\n"
+kind: ConfigMap
+metadata:
+  annotations:
+    use-subpath: "true"
+  labels:
+    io.kompose.service: cs16
+  name: cs16-cm3
