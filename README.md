@@ -45,7 +45,7 @@ NAME                                               READY   STATUS    RESTARTS   
 cs16-686f864bcd-l9vff                              1/1     Running   1          5h34m
 ```
 
-## Get IP LoadBalancer IP to connect on POD
+## Get LoadBalancer IP to connect on POD
 ```
 kubectl get svc
 NAME                              TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)           AGE
